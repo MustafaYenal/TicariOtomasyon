@@ -73,7 +73,7 @@ namespace TicariOtomasyon
                //komut2.Parameters.AddWithValue("@p4", decimal.Parse(TxtTutar.Text));
                // komut2.Parameters.AddWithValue("@p5", TxtFaturaid.Text);
                // komut2.ExecuteNonQuery();
-               // bgl.baglanti().Close();
+               // bgl.baglanti().Close(); 
 
                 //Hareket Tablosuna veri girişi
                 SqlCommand komut3 = new SqlCommand("insert into tbl_fırmahareketler (Urunıd,adet,personel,fırma,fıyat,toplam,faturaıd,tarıh) values (@r1,@p2,@r3,@r4,@pr,@r,@r7,@r8)", bgl.baglanti());
